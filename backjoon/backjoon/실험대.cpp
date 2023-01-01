@@ -7,7 +7,7 @@ using namespace std;
 int main() {
 
 //¼öÁ¤
-	int a = 5;
+	int a = 4;
 
 
 
