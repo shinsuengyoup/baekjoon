@@ -25,6 +25,11 @@ int main() {
 			myself = copyVec[i];
 		}
 	}
+
+	for (int i : compareVec) {
+		cout << i << " ";
+	}
+	cout << endl;
 	
 	for (int i = 0; i < N; i++) {
 		cout << lower_bound(compareVec.begin(), compareVec.end(), originVec[i]) - compareVec.begin() << ' ';
